@@ -1,0 +1,98 @@
+.calculator {
+  height: 730px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.output_view {
+  background-color: #56595dd0;
+  height: 140px;
+  width: 80%;
+  margin-top: 10px;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.output {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.output_view > h1 {
+  color: white;
+  float: right;
+  margin: 20px;
+  font-size: 6pc;
+  font-weight: 300;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.calculator_rows {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.calculator_row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator_greyButton {
+  height: 80px;
+  width: 100px;
+  border: none;
+  outline: none;
+  font-size: 27px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator_greyButton:hover {
+  border: 1px solid #2a2d37;
+}
+
+.calculator_greyButtonZero {
+  height: 80px;
+  width: 200px;
+  border: none;
+  outline: none;
+  font-size: 27px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator_greyButtonZero:hover {
+  border: 1px solid #2a2d37;
+}
+
+.calculator_orangeButton {
+  height: 80px;
+  width: 100px;
+  border: none;
+  outline: none;
+  background-color: #f49d31;
+  color: white;
+  font-size: 27px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator_orangeButton:hover {
+  border: 1px solid #2a2d37;
+}
