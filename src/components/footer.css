@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka&family=Montserrat:wght@500&family=Poppins:wght@500&display=swap');
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 85%;
+  padding: 10px 10%;
+  height: 50px;
+  background-color: #336887;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+p {
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+}

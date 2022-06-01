@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import './Calculator.css';
+import Navbar from './navbar';
+import Footer from './footer';
 
 const operators = ['÷', 'x', '-', '+', '='];
 const digits = [
@@ -37,25 +39,50 @@ const Calculator = () => {
   };
 
   return (
-    <ul className="calculator-body">
-      <li className="calculator-screen">{obj.next || obj.total || '0'}</li>
-      <li className="calculator-keyboard">
-        <div className="calculator-digits">
-          {digits.map((btn) => (
-            <button onClick={() => handleClick(btn)} type="button" key={btn}>
-              {btn}
-            </button>
-          ))}
+    <div>
+      <Navbar />
+      <div className="calc-group">
+        <div className="desc">
+          <p> Let&apos;s do some maths! </p>
+          <img src="https://media.giphy.com/media/WMRb9p6N4mtIRtE2zr/giphy.gif" alt="gif" height="300" />
         </div>
-        <div className="calculator-operators">
-          {operators.map((btn) => (
-            <button onClick={() => handleClick(btn)} type="button" key={btn}>
-              {btn}
-            </button>
-          ))}
+        <div>
+          <br />
+          <br />
+          <br />
+          <ul className="calculator-body">
+            <li className="calculator-screen">
+              {obj.next || obj.total || '0'}
+            </li>
+            <li className="calculator-keyboard">
+              <div className="calculator-digits">
+                {digits.map((btn) => (
+                  <button
+                    onClick={() => handleClick(btn)}
+                    type="button"
+                    key={btn}
+                  >
+                    {btn}
+                  </button>
+                ))}
+              </div>
+              <div className="calculator-operators">
+                {operators.map((btn) => (
+                  <button
+                    onClick={() => handleClick(btn)}
+                    type="button"
+                    key={btn}
+                  >
+                    {btn}
+                  </button>
+                ))}
+              </div>
+            </li>
+          </ul>
         </div>
-      </li>
-    </ul>
+        <Footer />
+      </div>
+    </div>
   );
 };
 

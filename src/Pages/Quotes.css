@@ -1,0 +1,6 @@
+#quote-images {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20%;
+  gap: 20px;
+}
