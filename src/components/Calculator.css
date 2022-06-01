@@ -10,6 +10,22 @@ button:hover {
   border: 1px solid #2a2d37;
 }
 
+.calc-group {
+  display: flex;
+  justify-content: space-around;
+  height: 85vh;
+}
+
+.desc {
+  align-self: center;
+  text-transform: uppercase;
+  padding: 40px;
+}
+
+.desc p {
+  font-size: 20px;
+}
+
 .calculator-body {
   display: flex;
   flex-flow: column;
