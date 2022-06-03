@@ -12,7 +12,8 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Heroku Deployment](https://maths-mag.herokuapp.com/)
+[Netlify Deploymnent](https://maths-mag.netlify.app/)
 
 # Getting Started
 To get a local copy up and running follow these simple example steps.
