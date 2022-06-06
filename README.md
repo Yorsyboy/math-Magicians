@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Heroku Deployment](https://maths-mag.herokuapp.com/)
+[Heroku Deployment](https://maths-mag.herokuapp.com/) <br>
 [Netlify Deploymnent](https://maths-mag.netlify.app/)
 
 # Getting Started
